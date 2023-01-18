@@ -1,0 +1,29 @@
+https://www.the-diy-life.com/crack-the-code-game-built-into-a-diy-safe-puzzle-box/
+
+
+POST COMMENT rejected as SPAM
+-----------------------------
+Hi there!
+Nice project, but there is an ERROR in your code:
+code[i] = random(0,9);
+This code only produces number between 0 and 8, as the second parameter of the function is "EXCLUSIVE" (see documentation). Your pin will never contain any number 9. The correct code should be:
+code[i] = random(0,10);  // values from 0 to 9
+Best regards!
+
+ROBOteach
+info@roboteach.es
+
+DIRECT CONTACT message
+----------------------
+Name:
+ROBOteach
+Email:
+info@roboteach.es
+Comment:
+I was trying to post a comment in your "Crack the Code" article, but got blocked with an error message saying that it was SPAM... 🤷🏽‍♂️
+
+It's a nice project that I'm recreating, but there is an error in your code, as the random(0,9) function only produces values between 0 and 8 (the 9 is EXCLUSIVE).
+
+Let me know if you need further details.
+
+Best regards!
